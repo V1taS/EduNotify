@@ -14,7 +14,7 @@ let project = Project(
       name: appName,
       platform: .iOS,
       product: .app,
-      bundleId: "com.sosinvitalii.TimeLearner",
+      bundleId: "com.sosinvitalii.EduNotify",
       deploymentTarget: .iOS(targetVersion: "13.0", devices: .iphone),
       infoPlist: getMainIOSInfoPlist(),
       sources: [

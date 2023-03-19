@@ -11,7 +11,7 @@ public let currentProjectVersion = "1"
 /// App
 public let organizationName = "SosinVitalii.com"
 public let reverseOrganizationName = "com.sosinvitalii"
-public let appName = "TimeLearner"
+public let appName = "EduNotify"
 public let appPath = "App"
 public let corePath = "Core"
 public let featuresPath = "Features"

@@ -7,11 +7,11 @@ public func getMainIOSInfoPlist() -> ProjectDescription.InfoPlist {
     "CFBundleShortVersionString": .string("\(marketingVersion)"),
     "CFBundleVersion": .string("\(currentProjectVersion)"),
     "CURRENT_PROJECT_VERSION": .string("\(currentProjectVersion)"),
-    "PRODUCT_BUNDLE_IDENTIFIER": .string("com.sosinvitalii.TimeLearner"),
-    "DISPLAY_NAME": .string("TimeLearner"),
+    "PRODUCT_BUNDLE_IDENTIFIER": .string("com.sosinvitalii.EduNotify"),
+    "DISPLAY_NAME": .string("EduNotify"),
     "UISupportsDocumentBrowser": .boolean(true),
     "IPHONEOS_DEPLOYMENT_TARGET": .string("13.0"),
-    "CFBundleExecutable": .string("TimeLearner"),
+    "CFBundleExecutable": .string("EduNotify"),
     "TAB_WIDTH": .string("2"),
     "INDENT_WIDTH": .string("2"),
     "DEVELOPMENT_TEAM": .string("34VDSPZYU9"),
@@ -27,9 +27,9 @@ public func getMainIOSInfoPlist() -> ProjectDescription.InfoPlist {
     "ENABLE_TESTABILITY": .string("YES"),
     "VALID_ARCHS": .string("arm64"),
     "DTPlatformVersion": .string("13.0"),
-    "CFBundleName": .string("TimeLearner"),
-    "CFBundleDisplayName": .string("TimeLearner"),
-    "CFBundleIdentifier": .string("com.sosinvitalii.TimeLearner"),
+    "CFBundleName": .string("EduNotify"),
+    "CFBundleDisplayName": .string("EduNotify"),
+    "CFBundleIdentifier": .string("com.sosinvitalii.EduNotify"),
     "LSApplicationCategoryType": .string("public.app-category.utilities"),
     "ITSAppUsesNonExemptEncryption": .boolean(false),
     "TARGETED_DEVICE_FAMILY": .string("1,2"),
@@ -61,7 +61,7 @@ public func getMainIOSInfoPlist() -> ProjectDescription.InfoPlist {
         "UIWindowSceneSessionRoleApplication": .array([
           .dictionary([
             "UISceneConfigurationName": .string("Default Configuration"),
-            "UISceneDelegateClassName": .string("TimeLearner.SceneDelegate")
+            "UISceneDelegateClassName": .string("EduNotify.SceneDelegate")
           ])
         ])
       ])
@@ -85,10 +85,10 @@ public func getMainMacOSInfoPlist() -> ProjectDescription.InfoPlist {
     "CFBundleShortVersionString": .string("\(marketingVersion)"),
     "CFBundleVersion": .string("\(currentProjectVersion)"),
     "CURRENT_PROJECT_VERSION": .string("\(currentProjectVersion)"),
-    "PRODUCT_BUNDLE_IDENTIFIER": .string("com.sosinvitalii.TimeLearner.Mac"),
-    "CFBundleName": .string("TimeLearner"),
-    "CFBundleDisplayName": .string("TimeLearner"),
-    "CFBundleIdentifier": .string("com.sosinvitalii.TimeLearner.Mac"),
+    "PRODUCT_BUNDLE_IDENTIFIER": .string("com.sosinvitalii.EduNotify.Mac"),
+    "CFBundleName": .string("EduNotify"),
+    "CFBundleDisplayName": .string("EduNotify"),
+    "CFBundleIdentifier": .string("com.sosinvitalii.EduNotify.Mac"),
     "LSApplicationCategoryType": .string("public.app-category.utilities"),
     "NSPrincipalClass": .string("NSApplication"),
     "ITSAppUsesNonExemptEncryption": .boolean(false),
